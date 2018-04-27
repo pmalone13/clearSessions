@@ -1,12 +1,18 @@
-Repo to store simple session clearing servlets.
+Atlassian application utility:
 
-This repo includes source for stash plugin.
+Simple servlet to to clear session cookie
 
-Target includes jar for confluence.
+This repo includes source and target jar for the stash plugin.
+
+An additional target includes jar for confluence.
 
 
 usage:
 
 http[s]://[server].domain.com/plugins/servlet/clearSession
 
+Examples:
 
+http://jira.idealfed.com/plugins/servlet/clearSession
+
+http://confluence.idealfed.com/plugins/servlet/clearSession
